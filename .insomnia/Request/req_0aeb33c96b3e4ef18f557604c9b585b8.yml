@@ -1,0 +1,28 @@
+_id: req_0aeb33c96b3e4ef18f557604c9b585b8
+type: Request
+parentId: fld_3a99f464724a4caf977aa1f1ef43ef50
+modified: 1688971375306
+created: 1688971375306
+url: "{{ _.base_url }}/jod"
+name: /jod
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: category
+    disabled: true
+    value: string
+headers: []
+authentication:
+  type: apikey
+  key: X-JokesOne-Api-Secret
+  value: "{{ _.xJokesOneApiSecret }}"
+  addTo: header
+metaSortKey: -1688971375306
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

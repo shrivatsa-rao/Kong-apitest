@@ -1,0 +1,31 @@
+_id: req_0380c222483643858df13187d3a448d8
+type: Request
+parentId: fld_4f016d884c7c417da2fa24df9f77ab3d
+modified: 1689060792774
+created: 1688730177709
+url: "{{ _.base_url }}/joke/tags/add"
+name: /joke/tags/add
+description: ""
+method: POST
+body: {}
+parameters:
+  - name: id
+    disabled: false
+    value: string
+  - name: tags
+    disabled: false
+    value: string
+headers: []
+authentication:
+  type: apikey
+  key: X-JokesOne-Api-Secret
+  value: "{{ _.xJokesOneApiSecret }}"
+  addTo: header
+metaSortKey: -1688730177709
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

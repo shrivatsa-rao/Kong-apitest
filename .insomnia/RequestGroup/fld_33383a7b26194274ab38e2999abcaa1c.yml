@@ -1,0 +1,12 @@
+_id: fld_33383a7b26194274ab38e2999abcaa1c
+type: RequestGroup
+parentId: wrk_70dc0f87319d41c7a309801eca2b568e
+modified: 1688730177693
+created: 1688730177693
+name: Joke of the day
+description: "Access joke of the day service. Use this to get the joke of the
+  day in various categories. This is a free API that is available to public. You
+  must credit Jokes One if you are using the free version. "
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1688730177693

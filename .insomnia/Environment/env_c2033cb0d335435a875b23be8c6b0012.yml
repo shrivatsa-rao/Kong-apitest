@@ -1,0 +1,18 @@
+_id: env_c2033cb0d335435a875b23be8c6b0012
+type: Environment
+parentId: env_60d929f0073a697184610fd624177b3d28412f10
+modified: 1689068373104
+created: 1688730038476
+name: Jokes_api
+data:
+  scheme: http
+  base_path: ""
+  host: 172.16.20.35:8000
+dataPropertyOrder:
+  "&":
+    - scheme
+    - base_path
+    - host
+color: null
+isPrivate: false
+metaSortKey: 1688730038476

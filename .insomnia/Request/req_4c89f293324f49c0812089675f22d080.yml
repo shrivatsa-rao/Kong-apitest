@@ -1,0 +1,31 @@
+_id: req_4c89f293324f49c0812089675f22d080
+type: Request
+parentId: fld_4f016d884c7c417da2fa24df9f77ab3d
+modified: 1689060584215
+created: 1688730177710
+url: "{{ _.base_url }}/joke/tags/remove"
+name: /joke/tags/remove
+description: ""
+method: POST
+body: {}
+parameters:
+  - name: id
+    disabled: false
+    value: string
+  - name: tags
+    disabled: false
+    value: string
+headers: []
+authentication:
+  type: apikey
+  key: X-JokesOne-Api-Secret
+  value: "{{ _.xJokesOneApiSecret }}"
+  addTo: header
+metaSortKey: -1688730177710
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,11 @@
+_id: fld_b61a7e3db837464cab5816fa5d2bca74
+type: RequestGroup
+parentId: wrk_70dc0f87319d41c7a309801eca2b568e
+modified: 1688971375304
+created: 1688971375304
+name: Random Jokes
+description: Access random joke service. Use this to get random jokes , jokes
+  filtered by authors or tags etc. You need an API key to access this service.
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1688971375304

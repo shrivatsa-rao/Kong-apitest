@@ -1,0 +1,25 @@
+_id: req_9a1301b70b664a1d89804eb8d39b8093
+type: Request
+parentId: fld_b61a7e3db837464cab5816fa5d2bca74
+modified: 1688971375318
+created: 1688971375318
+url: "{{ _.base_url }}/joke/random"
+name: /joke/random
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: apikey
+  key: X-JokesOne-Api-Secret
+  value: "{{ _.xJokesOneApiSecret }}"
+  addTo: header
+metaSortKey: -1688971375318
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

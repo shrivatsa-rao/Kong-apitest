@@ -1,0 +1,10 @@
+_id: fld_4f016d884c7c417da2fa24df9f77ab3d
+type: RequestGroup
+parentId: wrk_70dc0f87319d41c7a309801eca2b568e
+modified: 1688730177697
+created: 1688730177697
+name: Private Jokes
+description: Store and manage your own jokes. Your own cloud native joke collection!
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1688730177697

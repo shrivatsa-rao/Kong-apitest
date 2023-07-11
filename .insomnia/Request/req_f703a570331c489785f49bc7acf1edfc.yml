@@ -1,0 +1,25 @@
+_id: req_f703a570331c489785f49bc7acf1edfc
+type: Request
+parentId: fld_3a99f464724a4caf977aa1f1ef43ef50
+modified: 1688971375307
+created: 1688971375307
+url: "{{ _.base_url }}/jod/categories"
+name: /jod/categories
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: apikey
+  key: X-JokesOne-Api-Secret
+  value: "{{ _.xJokesOneApiSecret }}"
+  addTo: header
+metaSortKey: -1688971375307
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
